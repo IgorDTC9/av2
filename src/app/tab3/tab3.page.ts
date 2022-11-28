@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class Tab3Page {
 
-  constructor() {}
+  public progress = 0.9;
 
 }

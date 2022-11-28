@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Página 3
+      Página 4
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,29 +9,15 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Página 3</ion-title>
+      <ion-title size="large">Página 4</ion-title>
     </ion-toolbar>
   </ion-header>
 
   <ion-progress-bar [value]="progress"></ion-progress-bar>
 
-  <ion-grid>
-    <ion-row >
-      <ion-col><ion-button routerLink="../tab1">Dados pessoais<ion-icon name="person-outline"></ion-icon></ion-button></ion-col>
-      <ion-col><ion-button routerLink="../tab2">Sexo<ion-icon name="male-female-outline"></ion-icon></ion-button></ion-col>
-      <ion-col><ion-button routerLink="../tab3">Termos de uso<ion-icon name="reader-outline"></ion-icon></ion-button></ion-col>
-    </ion-row>
-  </ion-grid>
+  <ion-label size="large"></ion-label>
+  <ion-title size="large">Obrigado por se candidatar</ion-title>
 
-  <ion-item>
-    <ion-checkbox slot="start"></ion-checkbox>
-    <ion-label>Eu concordo com os termos e condições</ion-label>
-  </ion-item>
-
-  <ion-button routerLink="../tab4">Salvar</ion-button>
-  
-
-  
   <ion-fab slot="fixed" vertical="bottom" horizontal="end">
     <ion-fab-button>
       <ion-icon name="chevron-up-circle"></ion-icon>
@@ -42,6 +28,9 @@
       </ion-fab-button>
       <ion-fab-button>
         <ion-button routerLink="../tab2"><ion-icon name="male-female-outline"></ion-icon></ion-button>
+      </ion-fab-button>
+      <ion-fab-button>
+        <ion-button routerLink="../tab3"><ion-icon name="reader-outline"></ion-icon></ion-button>
       </ion-fab-button>
     </ion-fab-list>
   </ion-fab>

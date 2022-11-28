@@ -5,8 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: 'tab1.page.html',
   styleUrls: ['tab1.page.scss']
 })
+
 export class Tab1Page {
-
-  constructor() {}
-
+  public progress = 0.3;
 }
